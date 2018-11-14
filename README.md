@@ -7,13 +7,21 @@ PHP Docker image for Deployer and Composer
 **Run Deployer**
 
 ```bash
-docker run --rm -u rdoepner -v $PWD:/app -w /app rdoepner/docker-deployer deployer
+docker run --rm \
+    -u rdoepner \
+    -v $PWD:/app \
+    -w /app \
+    rdoepner/docker-deployer deployer
 ```
 
 **Run Composer**
 
 ```bash
-docker run --rm -u rdoepner -v $PWD:/app -w /app rdoepner/docker-deployer composer
+docker run --rm \
+    -u rdoepner \
+    -v $PWD:/app \
+    -w /app \
+    rdoepner/docker-deployer composer
 ```
 
 ## Build arguments
