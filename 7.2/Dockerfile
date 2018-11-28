@@ -16,12 +16,17 @@ RUN set -ex; \
 # Install system requirements
 RUN set -ex; \
     apt-get update && apt-get install --yes \
-        unzip \
         rsync \
         wget \
-        git; \
+        git \
+        unzip \
+        zlib1g-dev; \
     \
     rm -rf /var/lib/apt/lists/*
+
+# Install extensions
+RUN set -ex; \
+    docker-php-ext-install zip
 
 # Install composer
 RUN set -ex; \
