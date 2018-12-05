@@ -28,7 +28,7 @@ docker run --rm \
 
 Argument         | Default value
 ---------------- | -------------
-COMPOSER_VERSION | 1.7.3
+COMPOSER_VERSION | 1.8.0
 DEPLOYER_VERSION | 6.3.0
 APP_USER         | rdoepner
 APP_UID          | 1000
