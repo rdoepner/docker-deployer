@@ -18,8 +18,11 @@ RUN set -ex; \
     apt-get update && apt-get install --yes \
         rsync \
         wget \
+        curl \
         git \
         unzip \
+        mysql-client \
+        openssh-client \
         zlib1g-dev; \
     \
     rm -rf /var/lib/apt/lists/*
