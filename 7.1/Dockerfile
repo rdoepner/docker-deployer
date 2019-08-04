@@ -21,7 +21,7 @@ RUN set -ex; \
         curl \
         git \
         unzip \
-        mysql-client \
+        mariadb-client \
         openssh-client \
         zlib1g-dev; \
     \
