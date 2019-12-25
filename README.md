@@ -28,4 +28,4 @@ wodby | 1000 | 1000
 
 Argument         | Default value
 ---------------- | -------------
-DEPLOYER_VERSION | 6.7.2
+DEPLOYER_VERSION | 6.7.3
