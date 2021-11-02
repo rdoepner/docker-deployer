@@ -1,0 +1,14 @@
+FROM wodby/php:8.0
+
+ARG DEPLOYER_VERSION=6.8.0
+
+USER root
+
+# Install deployer
+RUN set -ex; \
+    wget -qO /usr/local/bin/deployer \
+        https://deployer.org/releases/v$DEPLOYER_VERSION/deployer.phar; \
+    \
+    chmod +x /usr/local/bin/deployer
+
+USER wodby
