@@ -26,6 +26,7 @@ wodby | 1000 | 1000
 
 ## Build arguments
 
-Argument         | Default value
----------------- | -------------
-DEPLOYER_VERSION | 6.8.0
+Argument           | Default Version
+------------------ | ---------------
+DEPLOYER_VERSION_7 | v7.0.0-rc.8
+DEPLOYER_VERSION_6 | v6.8.0
