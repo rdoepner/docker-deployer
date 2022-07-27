@@ -1,6 +1,6 @@
 FROM wodby/php:8.1
 
-ARG DEPLOYER_VERSION_7=v7.0.0-rc.8
+ARG DEPLOYER_VERSION_7=v7.0.0
 
 USER root
 
