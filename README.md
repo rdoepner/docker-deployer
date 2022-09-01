@@ -28,5 +28,5 @@ wodby | 1000 | 1000
 
 Argument           | Default Version
 ------------------ | ---------------
-DEPLOYER_VERSION_7 | v7.0.0
+DEPLOYER_VERSION_7 | v7.0.1
 DEPLOYER_VERSION_6 | v6.8.0
